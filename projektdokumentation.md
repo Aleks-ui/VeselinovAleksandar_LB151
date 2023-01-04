@@ -1,10 +1,10 @@
 # Projekt-Dokumentation
 
-✍️ Ihr Nachname
+Veselinov
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-| 04.01.2023      | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
+| 04.01.2023      | 0.0.1   | Erarbeitung der Kapitel 0 bis 2 |
 |       | 0.0.2   |                                                              |
 |       | 0.0.3   |                                                              |
 |       | 0.0.4   |                                                              |
@@ -14,20 +14,18 @@
 
 # 0 Ihr Projekt
 
-✍️ Beschreiben Sie Ihr Projekt in einem griffigen Satz.
+Im Projekt geht es darum ein Glücksrad-Spiel mittels einer Webapplikation zu implementieren. Im Spiel soll es darum gehen ein Wort, welches in einem Gitter abgebildet wird, zu erraten. Jedes Wort den man erraten soll entspricht zu einer zufälligen Kategorie, damit der Spieler sich beim Erraten orientieren kann. Damit der Spieler das Wort auflöst, muss er entsprechend den Glücksrad drehen. Pro erratenen Buchstaben aus dem Lösungswort, wird dem Spieler ein bestimmter Geldbetrag gutgeschrieben, je nach Wahrscheinlichkeit des Buchstaben. Falls der erratene Buchstabe nicht im Lösungswort enthalten ist, verliert er ein Leben (insg. drei Leben) und das Spiel ist beendet. 
 
 # 1 Analyse
 
-✍️ Beschreiben Sie, auf welchem Tier Sie die dynamischen Elemente der Anwendung unterbringen möchten:
-
-* Tier 1 (Presentation): ...
-* Tier 2 (Webserver):
-* Tier 3 (Application Server):
-* Tier 4 (Dataserver):
+* Tier 1 (Presentation): Highscore-Liste, Spiel-Gitter, Glücksrad mit Feldern.
+* Tier 2 (Webserver): Eingabe der Konsonanten, Vokalen oder Wörter, Erdrehen des Glücksrades.
+* Tier 3 (Application Server): Erratenen Buchstaben/Wort mit Lösungswort vergleichen, Guthaben entsprechend erhöhen bei Gewinn, bei Kauf von Vokalen Guthaben senken, Lebenspunkte entnehmen.
+* Tier 4 (Dataserver): Speicherung der Lösungswörter, Rangliste-Daten, Wahrscheinlichkeit der Felder mit entsprechendem Betrag.
 
 # 2 Technologie
 
-✍️ Beschreiben Sie für dieselben Tiers, welche Programmiersprache bzw. Technologie Sie verwenden möchten.
+Als Programmiersprache werde ich Java verwenden, um die Darstellung, sowie die Eingabe und Validierung der Daten zu ermöglichen. Damit ich die Daten wie gewünscht speichere, werde ich eine mySQL-Datenbank aufsetzen und diese mit Java verknüpfen und dort all die Daten einfügen bzw. auslesen oder abändern etc.
 
 # 3 Datenbank
 
