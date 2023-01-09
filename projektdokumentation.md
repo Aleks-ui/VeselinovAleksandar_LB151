@@ -29,7 +29,7 @@ Als Programmiersprache werde ich Java verwenden, um die Darstellung, sowie die E
 
 # 3 Datenbank
 
-✍️ Wie steuern Sie Ihre Datenbank an? Wie ist das Interface aufgebaut? 
+Es können sich anfangs Administratoren bzw. Spieler anmelden, wobei die Anmeldedaten vom Spieler nach dem Anmelden in die Datenbank gespeichert werden, damit diese bei der Highscore-Liste aufgerufen und angezeigt werden können. Damit Rätselwörter angelegt werden können wird es eine Schnittstelle zwischen dem Admin und der Datenbank geben, wobei er sich dazu entscheiden kann neue Wörter anzulegen mit der entsprechenden Kategorie oder löschen. Beim Spiel wird das eingegebene Wort mit dem zu erratenden Wort aus der Datenbank verglichen und anschliessend zurückgegeben, ob es falsch oder richtig ist. Alles andere wird vom Webserver/Application-Server übernommen. 
 
 # 4.1 User Stories
 
@@ -39,8 +39,14 @@ Als Programmiersprache werde ich Java verwenden, um die Darstellung, sowie die E
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️ |
-| ...  |                 |      |                                    |
+| A    |Muss|Funktional| Als ein Administrator möchte ich die Eigenschaft besitzen für das Einfügen und Löschen, damit das Spiel flexibler und lediglich Up-To-Date ist.  |
+| B    |Muss|Funktional| Als ein Benutzer möchte ich mich anmelden können, damit mein High-Score mit den anderen verglichen wird. |
+| C    |Muss|Qualität| Als ein Spieler möchte ich die Spieleigenschaften auf dem Screen angezeigt bekommen, damit ich weiss wie viel Leben, Geld, etc. mir übrig bleibt. |
+| D    |Muss|Funktional| Als ein Spieler möchte ich bei Eingabe ein Resultat erhalten, ob die Eingabe richtig oder falsch war. |
+| E    |Muss|Qualität| Als ein Spieler möchte ich die Kategorie des Wortes ansehen, damit die Erratung des Wortes leichter fällt. |
+| F    |Muss|Funktional| Als ein Administrator möchte ich Highscore-Einträge löschen, damit die Datenbank nicht von redundanten/unnötigen Daten Platz verbraucht wird.  |
+| G    |Muss|Funktional| Als ein Kandidat möchte ich bei der Suche einen Spielernamen eingeben können, damit die Suche schneller und effizienter geht für das Filtrieren. |
+| H    |Muss|Randbedingung| Als ein Administrator möchte Hacking-Lücken mit Lösungen vermindern, damit das Spiel nicht von Hacker korrupt oder angegriffen wird.  |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
 
