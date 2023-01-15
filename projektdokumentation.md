@@ -42,11 +42,10 @@ Es können sich anfangs Administratoren bzw. Spieler anmelden, wobei die Anmelde
 | 1    |Muss|Funktional| Als ein Administrator möchte ich die Eigenschaft besitzen für das Einfügen und Löschen, damit das Spiel flexibler und lediglich Up-To-Date ist.  |
 | 2    |Muss|Funktional| Als ein Benutzer möchte ich mich anmelden können, damit mein High-Score mit den anderen verglichen wird. |
 | 3    |Muss|Qualität| Als ein Spieler möchte ich die Spieleigenschaften auf dem Screen angezeigt bekommen, damit ich weiss wie viel Leben, Geld, etc. mir übrig bleibt. |
-| 4    |Muss|Funktional| Als ein Spieler möchte ich bei Eingabe ein Resultat erhalten, ob die Eingabe richtig oder falsch war. |
+| 4    |Muss|Funktional| Als ein Spieler möchte ich bei Eingabe ein Resultat erhalten, damit ich weiss ob die Eingabe richtig oder falsch war. |
 | 5    |Muss|Qualität| Als ein Spieler möchte ich die Kategorie des Wortes ansehen, damit die Erratung des Wortes leichter fällt. |
-| 6    |Muss|Funktional| Als ein Administrator möchte ich Highscore-Einträge löschen, damit die Datenbank nicht von redundanten/unnötigen Daten Platz verbraucht wird.  |
-| 7    |Muss|Funktional| Als ein Kandidat möchte ich bei der Suche einen Spielernamen eingeben können, damit die Suche schneller und effizienter geht für das Filtrieren. |
-| 8    |Muss|Randbedingung| Als ein Administrator möchte Hacking-Lücken mit Lösungen vermindern, damit das Spiel nicht von Hacker korrupt oder angegriffen wird.  |
+| 6    |Muss|Funktional| Als ein Kandidat möchte ich bei der Suche einen Spielernamen eingeben können, damit die Suche schneller und effizienter geht für das Filtrieren. |
+| 7    |Muss|Randbedingung| Als ein Administrator möchte Hacking-Lücken mit Lösungen vermindern, damit das Spiel nicht von Hacker angegriffen oder korrupt wird.  |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc. oder Zahl), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). 
 
@@ -59,6 +58,10 @@ Es können sich anfangs Administratoren bzw. Spieler anmelden, wobei die Anmelde
 | 2.1  |Programm ist gestartet. Man ist als Spieler angemeldet|1. Auf 'Rangliste ansehen' drücken, 2. Auf Button 'Mein Platz ausgeben' drücken.|Datenbank führt Befehl aus und es wird ein Fenster ausgegeben mit dem Ranglisten-Platz bei dem man sich befindet.|
 | 3.1  |Programm ist gestartet. Man ist als Spieler angemeldet und befindet sich beim Menü|1. Auf 'Spielen' drücken.|Im Spiel werden seit dem Anfang die benötigten Hinweise wie Leben, Geldbetrag, etc. angezeigt.|
 | 3.2  |Programm ist gestartet. Man ist als Spieler angemeldet und befindet sich beim Menü|1. Auf 'Spielen' drücken, 2. Solange spielen, bis man beim Rad 'Geldbetrag x' erhalten hat, 3. Eingabe für Wort auswählen und anschliessend 'Falsche Antwort' eingeben.|Man verliert sein Leben wenn man eine falsche Antwort getätigt hat.|
+| 4.1  |Programm ist gestartet. Man ist als Spieler angemeldet und befindet sich beim Menü|1. Auf 'Spielen' drücken, 2. Solange spielen, bis man beim Rad 'Geldbetrag x' erhalten hat, 3. Eingabe für Wort auswählen und anschliessend 'Nicht richtig' eingeben.|Das Spiel gibt aus, dass die Eingabe falsch war.|
+| 5.1  |Programm ist gestartet. Man ist als Spieler angemeldet und befindet sich beim Menü|1. Auf 'Spielen' drücken, 2. Bei Button 'Kategorie anzeigen drücken'.|Das Spiel gibt aus, um welche Kategorie sich das Wort handelt und man verliert einen bestimmten Geldbetrag dazu.|
+| 6.1  |Programm ist gestartet. Man ist als Spieler angemeldet und befindet sich beim Menü|1. Auf 'Rangliste anzeigen' drücken, 2. Bei Button 'Such-Filter' drücken, 3. Spielername 'Bob' eingeben und suchen.|Das Programm gibt den gesuchten Speieler Bob aus und zeigt seinen Geldbetrag-Highscore an.|
+| 7.1  |Programm ist gestartet. Man befindet sich beim Login|1. SQL-Injection beim Namen eingeben (damit es denkt, dass man ein Admin wäre letztendlich), 2. Bei Button 'Anmelden' drücken|Die Datenbank erkennt, dass es um eine SQL-Injection handelt und führt den ganzen Teil als String aus, aufgrund des Prepared-Statement. --> Man ist als Spieler trotzdem angemeldet.|
 
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
