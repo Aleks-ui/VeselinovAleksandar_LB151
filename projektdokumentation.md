@@ -54,16 +54,11 @@ Es können sich anfangs Administratoren bzw. Spieler anmelden, wobei die Anmelde
 
 | TC-№ | Vorbereitung | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |Programm ist gestartet. Man ist als Administrator angemeldet.|1. Bei Menü des Admins auf 'Rätselwörter bearbeiten' gehen
-2. Rätselwort 'Das ist ein Test' auf Button "Entfernen" drücken.
-3. Auf Button 'Rätselwort hinzufügen' den Rätselwort 'Scooby-Doo' eingeben und anschliessend auf bestätigen.|Die Datenbank führt den entsprechenden Code aus, um den Rätselwort zu löschen und das andere hinzuzufügen --> Beim Spielen wird das Rätselwort erscheinen.|
-| 1.2  |Programm ist gestartet. Man ist als Admin angemeldet|1. Auf 'Rangliste bearbeiten' drücken.
-2. Gewünschten Spieler aus der Liste auswählen und anschliessend auf Löschen drücken.|Datenbank führt Befehl aus und der Spieler wird bei der Anzeige der Rangliste ausgeblendet bzw. nicht mehr angezeigt.|
-| 2.1  |Programm ist gestartet. Man ist als Spieler angemeldet|1. Auf 'Rangliste ansehen' drücken.
-2. Auf Button 'Mein Platz ausgeben' drücken.|Datenbank führt Befehl aus und es wird ein Fenster ausgegeben mit dem Ranglisten-Platz bei dem man sich befindet.|
+| 1.1  |Programm ist gestartet. Man ist als Administrator angemeldet.|1. Bei Menü des Admins auf 'Rätselwörter bearbeiten' gehen, 2. Rätselwort 'Das ist ein Test' auf Button "Entfernen" drücken, 3. Auf Button 'Rätselwort hinzufügen' den Rätselwort 'Scooby-Doo' eingeben und anschliessend auf bestätigen.|Die Datenbank führt den entsprechenden Code aus, um den Rätselwort zu löschen und das andere hinzuzufügen --> Beim Spielen wird das Rätselwort erscheinen.|
+| 1.2  |Programm ist gestartet. Man ist als Admin angemeldet|1. Auf 'Rangliste bearbeiten' drücken, 2. Gewünschten Spieler aus der Liste auswählen und anschliessend auf Löschen drücken.|Datenbank führt Befehl aus und der Spieler wird bei der Anzeige der Rangliste ausgeblendet bzw. nicht mehr angezeigt.|
+| 2.1  |Programm ist gestartet. Man ist als Spieler angemeldet|1. Auf 'Rangliste ansehen' drücken, 2. Auf Button 'Mein Platz ausgeben' drücken.|Datenbank führt Befehl aus und es wird ein Fenster ausgegeben mit dem Ranglisten-Platz bei dem man sich befindet.|
 | 3.1  |Programm ist gestartet. Man ist als Spieler angemeldet und befindet sich beim Menü|1. Auf 'Spielen' drücken.|Im Spiel werden seit dem Anfang die benötigten Hinweise wie Leben, Geldbetrag, etc. angezeigt.|
-| 3.2  |Programm ist gestartet. Man ist als Spieler angemeldet und befindet sich beim Menü|1. Auf 'Spielen' drücken.
-2. |Im Spiel werden seit dem Anfang die benötigten Hinweise wie Leben, Geldbetrag, etc. angezeigt.|
+| 3.2  |Programm ist gestartet. Man ist als Spieler angemeldet und befindet sich beim Menü|1. Auf 'Spielen' drücken, 2. Solange spielen, bis man beim Rad 'Geldbetrag x' erhalten hat, 3. Eingabe für Wort auswählen und anschliessend 'Falsche Antwort' eingeben.|Man verliert sein Leben wenn man eine falsche Antwort getätigt hat.|
 
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
