@@ -5,12 +5,12 @@ Veselinov
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 | 04.01.2023      | 0.0.1   | Erarbeitung der Kapitel 0 bis 2 |
-|       | 0.0.2   |                                                              |
-|       | 0.0.3   |                                                              |
-|       | 0.0.4   |                                                              |
-|       | 0.0.5   |                                                              |
-|       | 0.0.6   |                                                              |
-|       | 1.0.0   |                                                              |
+|11.02.2023| 0.0.2   |Kapitel 2 bis 4 erarbeiten|
+|18.02.2023| 0.0.3   |Kapitel 5 GUI erstellt|
+|06.02.2023| 0.0.4   |Kapitel 5 bis 7 erarbeitet und programmiert|
+|13.02.2023| 0.0.5   |an der Implementierung gearbeitet|
+|20.02.2023| 0.0.6   |Implementierung des Projekts, restliche Kapitel durchgeführt (7 bis 9)|
+|27.02.2023| 1.0.0   |Code so viel wie möglich verfeinert und Readme.md File erstellt.|
 
 # 0 Ihr Projekt
 
