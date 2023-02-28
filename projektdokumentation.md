@@ -119,4 +119,5 @@ ReadMe.md File ist abgelegt innerhalb des Projektes (LB-Bewertung).
 
 # Quellcode als Zip-File
 [LB_151_Gluecksspiel.zip](https://github.com/Aleks-ui/VeselinovAleksandar_LB151/files/10838781/LB_151_Gluecksspiel.zip)
+[SQL.zip](https://github.com/Aleks-ui/VeselinovAleksandar_LB151/files/10851770/SQL.zip)
 
